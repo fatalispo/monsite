@@ -10,7 +10,6 @@
 #menu-deroulant li {
 /* on place les liens du menu horizontalement */
     display: inline-block;
-    margin-left : 35px;
 }
 #menu-deroulant ul li {
 /* on enlève ce comportement pour les liens du sous menu */
