@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
+	    <meta name="author" content="Benjamin Dumay"/>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Bienvenue sur ma page</title>
-		<meta name="author" content="Benjamin Dumay"/>
 		<link rel="shortcut icon" type="image/x-icon" href="image/benjamindumay.png"/>
+		<title>Me contacter</title>
 	</head>
 
 	<body>
 		
+		<?php include("menus.php");?>
+
 	</body>
 </html>
