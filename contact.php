@@ -30,7 +30,7 @@
 					<label for="objet">Objet :</label>
 					<input type="text" name="nom" id="objet" placeholder="Un site ...">
 				</p>
-				<textarea rows="20" cols="110" name="message" id="message" placeholder="..."></textarea><br />
+				<textarea rows="20" cols="110" id="message" placeholder="..."></textarea><br />
 				<p>
 				<input type="submit" value="Envoyer" />
 				</p>
