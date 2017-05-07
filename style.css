@@ -1,27 +1,47 @@
+            
+            /*1.MENUS DEROULANT*/
+
 #menu-deroulant, #menu-deroulant ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+        margin : auto;
+        padding: 0;
+        list-style : none; /* on supprime le style par défaut de la liste */
+        line-height : 31px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
 }
+
 #menu-deroulant {
-/* on centre le menu dans la page */
-    text-align: center;
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 14px; /* hauteur du texte : 12 pixels */
+        padding-bottom: 150px; /*Un peu d'espace entre le menu et ce qui suit*/
 }
+
 #menu-deroulant li {
-/* on place les liens du menu horizontalement */
-    display: inline-block;
+        float : left; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
 }
-#menu-deroulant ul li {
-/* on enlève ce comportement pour les liens du sous menu */
-    display: inherit;
+
+#menu-deroulant li ul {
+        position: absolute; /* Position absolue */
+        width: 244px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+#menu-deroulant li ul li{
+        /* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 2px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous-liste */
 }
 
 #menu-deroulant a {
-    text-decoration: none;
-    display: block;
-	color:#000;
-    margin-left: 35px;
+        display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(255,230,43,0.25); /* couleur de fond */        
+        color : #807F79; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 244px; /* largeur */
 }
+
 #menu-deroulant ul {
     position: absolute;
 /* on cache les sous menus complètement sur la gauche */
@@ -29,7 +49,17 @@
     text-align: left;
     z-index: 1000;
 }
+
 #menu-deroulant li:hover ul {
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
 }
+
+#menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
+        color: #FAA228; /* On passe le texte en orange... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+
+        /*2.PAGE INDEX*/
+
