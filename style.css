@@ -4,16 +4,16 @@
 #menu-deroulant, #menu-deroulant ul {
         margin : auto;
         padding: 0;
-        list-style : none; /* on supprime le style par défaut de la liste */
-        line-height : 31px; /* on définit une hauteur pour chaque élément */
-        text-align : center; /* on centre le texte qui se trouve dans la liste */
+        list-style : none; 
+        line-height : 31px; 
+        text-align : center;
 }
 
 #menu-deroulant {
-        font-weight : bold; /* on met le texte en gras */
-        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
-        font-size : 14px; /* hauteur du texte : 12 pixels */
-        padding-bottom: 150px; /*Un peu d'espace entre le menu et ce qui suit*/
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 14px; 
+        padding-bottom: 50px; /*Un peu d'espace entre le menu et ce qui suit*/
 }
 
 #menu-deroulant li {
@@ -34,11 +34,11 @@
 }
 
 #menu-deroulant a {
-        display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        display : inline-block; /* les liens deviennent des balises de type block */
         padding : 0; /* aucune marge intérieure */
-        background-color : rgba(255,230,43,0.25); /* couleur de fond */        
-        color : #807F79; /* couleur du texte */
-        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
         width : 244px; /* largeur */
 }
 
@@ -62,4 +62,10 @@
 
 
         /*2.PAGE INDEX*/
+
+body
+{
+    background-color: rgba(180,194,185,0.75);
+}
+
 
