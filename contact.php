@@ -13,7 +13,7 @@
 		<?php include("menus.php");?>
 
 		<form method="POST" action="traitement_contact.php">
-			<legend>Formulaire de mise en relationS</legend>
+			<legend>Formulaire de mise en relation</legend>
 				<p>
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom" placeholder="DUPONT">
