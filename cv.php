@@ -12,7 +12,8 @@
 		
 		<?php include("menus.php");?>
 		<br/>
-			<h1>Mon parcours</h1>
+			<h1><center>Mon parcours</center></h1>
+		<br/>
 				<h2 id="formations">Mes formations</h2>
 					<p>2016 – 2017 Débute une formation de développeur web avec le CNAM en ligne.</p>
 					<p>2016 – 2017 Certificat pour plusieurs MOOC développement web sur OpenClassroom.</p>
