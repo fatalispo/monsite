@@ -1,0 +1,347 @@
+            
+            /*1.MENUS DEROULANT*/
+
+#menu-deroulant, #menu-deroulant ul {
+        margin : auto;
+        padding: 0;
+        list-style : none; 
+        line-height : 31px; 
+        text-align : center;
+}
+
+#menu-deroulant {
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 14px; 
+        padding-bottom: 50px; /*Un peu d'espace entre le menu et ce qui suit*/
+}
+
+#menu-deroulant li {
+        float : left; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+#menu-deroulant li ul {
+        position: absolute; /* Position absolue */
+        width: 244px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+#menu-deroulant li ul li{
+        /* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 2px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous-liste */
+}
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 470px; /* largeur */
+}
+
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+#menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
+        color: green; /* On passe le texte en orange... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+
+        /*2.PAGE INDEX*/
+
+body{
+    background-color: rgba(0,0,0,1);
+    color: green ;
+}
+
+    
+h2 {
+    text-shadow: 5px 5px 15px green;
+}
+
+
+        /*3.CONTACT*/
+
+form legend {
+    font-size: 20px ; 
+    font-weight: bold;
+}
+
+#nom{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#prenom{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#email{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#objet{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 85%; 
+    margin-left: 150px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*                            --------------PETITES-RESOLUTIONS-ORDI--------------------                                */
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 768px)
+{
+
+            /*1.MENU DEROULANT*/
+
+#menu-deroulant, #menu-deroulant ul {
+        margin : auto;
+        padding: 0;
+        list-style : none; 
+        line-height : 31px; 
+        text-align : center;
+}
+
+#menu-deroulant {
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 14px; 
+        padding-bottom: 50px; /*Un peu d'espace entre le menu et ce qui suit*/
+}
+
+#menu-deroulant li {
+        float : left; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+#menu-deroulant li ul {
+        position: absolute; /* Position absolue */
+        width: 244px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+#menu-deroulant li ul li{
+        /* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 2px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous-liste */
+}
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 470px; /* largeur */
+}
+
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+#menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
+        color: green; /* On passe le texte en orange... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+
+        /*2.PAGE INDEX*/
+
+body{
+    background-color: rgba(0,0,0,1);
+    color: green ;
+}
+
+    
+h2 {
+    text-shadow: 5px 5px 15px green;
+}
+
+
+        /*3.CONTACT*/
+
+form legend {
+    font-size: 20px ; 
+    font-weight: bold;
+}
+
+#nom{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#prenom{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#email{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#objet{
+    margin-left: 150px;
+    width: 300px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 85%; 
+    margin-left: 150px;
+}
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*                            --------------PETITES-RESOLUTIONS-TEL---------------                                 */
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 600px)
+{
+
+            /*1.MENU DEROULANT*/
+
+#menu-deroulant, #menu-deroulant ul {
+        margin : auto;
+        padding: 0;
+        list-style : none; 
+        line-height : 31px; 
+        text-align : center;
+}
+
+#menu-deroulant {
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 14px; 
+        padding-bottom: 50px; /*Un peu d'espace entre le menu et ce qui suit*/
+}
+
+#menu-deroulant li {
+        float : left; 
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+#menu-deroulant li ul {
+        position: absolute; /* Position absolue */
+        width: 244px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+#menu-deroulant li ul li{
+        /* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-top : 2px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous-liste */
+}
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 470px; /* largeur */
+}
+
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+#menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
+        color: green; /* On passe le texte en orange... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+
+        /*2.PAGE INDEX*/
+
+body{
+    background-color: rgba(0,0,0,1);
+    color: green ;
+}
+
+    
+h2 {
+    text-shadow: 5px 5px 15px green;
+}
+
+
+        /*3.CONTACT*/
+
+form legend {
+    font-size: 12px ; 
+    font-weight: bold;
+}
+
+#nom{
+    margin-left: 15px;
+    width: 300px;
+}
+
+#prenom{
+    margin-left: 15px;
+    width: 300px;
+}
+
+#email{
+    margin-left: 15px;
+    width: 300px;
+}
+
+#objet{
+    margin-left: 15px;
+    width: 300px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 85%; 
+    margin-left: 10px;
+}
+}
