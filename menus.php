@@ -3,7 +3,7 @@
 		<li><a href="index.php">Accueil</a>
 			<ul>
 				<li><a href="index.php#enbref">En bref</a></li>
-				<li><a href="index.php#demo">Démonstration</a></li>
+				<li><a href="index.php#envi">Environnement</a></li>
 			</ul>
 		</li>
 		<li><a href="cv.php">Curriculum Vitae</a>
