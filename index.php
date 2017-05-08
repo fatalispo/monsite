@@ -3,13 +3,16 @@
 	<head>
 	    <meta name="author" content="Benjamin Dumay"/>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link rel="shortcut icon" type="image/x-icon" href="image/benjamindumay.png"/>
 		<title>Bienvenue</title>
 	</head>
 
 	<body>
 		<?php include("menus.php");?>
+		<hr/>
+				<h1 align="center">Bienvenue</h1>
+		<hr/>
 			<img src="image/exempletravail.png" alt="Un exemple de codage" height="550px" width="100%" align="center"><!--Image créée via GIMP donc c'est ma propre source-->
 		<br/>
 				<h2 id="enbref">En bref</h2><!--Ancrage pour le menu-->
