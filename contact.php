@@ -13,9 +13,9 @@
 		<?php include("menus.php");?>
 
 		<form method="POST" action="traitement_contact.php">
+		<br/>
 			<legend><center>Formulaire de mise en relation</center></legend>
-				<br/>
-
+		<br/>
 				<p>
 					<input type="text" name="nom" id="nom" placeholder="Nom">
 				</p>
@@ -28,8 +28,8 @@
 				<p>
 					<input type="text" name="nom" id="objet" placeholder="Objet">
 				</p>
-				<br/>
-				<textarea rows="30" cols="210" id="message" placeholder="Ecrivez votre message ici"></textarea><br />
+		<br/>
+				<textarea rows="30" cols="210" id="zonetexte" placeholder="Ecrivez votre message ici"></textarea><br />
 				<p><center>
 				<input type="reset" name="reset" value="Réinitialiser">
 				<input type="submit" name="envoyer" value="Envoyer" />
