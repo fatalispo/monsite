@@ -56,7 +56,7 @@
 }
 
 #menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
-        color: #FAA228; /* On passe le texte en orange... */
+        color: green; /* On passe le texte en orange... */
         background: #fff; /* ... et au contraire, le fond en blanc */
 }
 
@@ -65,7 +65,8 @@
 
 body
 {
-    background-color: rgba(180,194,185,0.75);
+    background-color: rgba(0,0,0,1);
+    color: green ;
 }
 
 
