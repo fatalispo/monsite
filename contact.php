@@ -15,28 +15,25 @@
 		<form method="POST" action="traitement_contact.php">
 			<legend><center>Formulaire de mise en relation</center></legend>
 				<br/>
-				
+
 				<p>
-					<label for="nom">Nom</label>
-					<input type="text" name="nom" id="nom" placeholder="DUPONT">
+					<input type="text" name="nom" id="nom" placeholder="Nom">
 				</p>
 				<p>
-					<label for="prenom">Prénom</label>
-					<input type="text" name="nom" id="prenom" placeholder="Jean">
+					<input type="text" name="nom" id="prenom" placeholder="Prénom">
 				</p>
 				<p>
-					<label for="email">E-mail</label>
-					<input type="email" name="nom" id="email" placeholder="example@nimportequoi.ca">
+					<input type="email" name="nom" id="email" placeholder="adresse@email.com">
 				</p>
 				<p>
-					<label for="objet">Objet :</label>
-					<input type="text" name="nom" id="objet" placeholder="Un site ...">
+					<input type="text" name="nom" id="objet" placeholder="Objet">
 				</p>
 				<br/>
-				<textarea rows="20" cols="110" id="message" placeholder="..."></textarea><br />
-				<p>
-				<input type="submit" value="Envoyer" />
-				</p>
+				<textarea rows="30" cols="210" id="message" placeholder="Ecrivez votre message ici"></textarea><br />
+				<p><center>
+				<input type="reset" name="reset" value="Réinitialiser">
+				<input type="submit" name="envoyer" value="Envoyer" />
+				</center></p>
 		</form>
 
 	</body>
