@@ -14,6 +14,8 @@
 
 		<form method="POST" action="traitement_contact.php">
 			<legend><center>Formulaire de mise en relation</center></legend>
+				<br/>
+				
 				<p>
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom" placeholder="DUPONT">
@@ -30,6 +32,7 @@
 					<label for="objet">Objet :</label>
 					<input type="text" name="nom" id="objet" placeholder="Un site ...">
 				</p>
+				<br/>
 				<textarea rows="20" cols="110" id="message" placeholder="..."></textarea><br />
 				<p>
 				<input type="submit" value="Envoyer" />
