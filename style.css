@@ -63,10 +63,13 @@
 
         /*2.PAGE INDEX*/
 
-body
-{
+body{
     background-color: rgba(0,0,0,1);
     color: green ;
+}
+
+h2{
+    text-shadow: 5px 5px 15px green;
 }
 
 
