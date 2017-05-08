@@ -14,7 +14,6 @@
 		<br/>
 			<h1><center>Mon parcours</center></h1>
 		<br/>
-			<center><a href="fichiers/cvbenjamindumay2017.pdf"><img src="image/moncv2017.png" alt="Image représentant mon Curriculum Vitae" height="200px" width="130px"></a></center><!--PDF en hyperlien-->
 				<h2 id="formations">Mes formations</h2><!--Ancrage pour le menu-->
 					<p>2016 – 2017 Débute une formation de développeur web avec le CNAM en ligne.</p>
 					<p>2016 – 2017 Certificat pour plusieurs MOOC développement web sur OpenClassroom.</p>
@@ -72,5 +71,13 @@
 					<p>Loisirs : astronomie, collection de livres anciens, escrime artistique, footing, informatique, lecture, peinture, etc.</p>
 					<p>Pédagogie : Organiser et donner des leçons d’anglais pour des élèves en difficulté et des conseils de méthode pour rédiger une dissertation de philosophie.</p>
 					<p>Permis : A et B.</p>
+		<br/>
+		<hr/>
+		<br/>
+					<p><center>Cliquez sur l'image ci-dessous pour afficher le CV au format PDF :</center></p>
+		<br/>
+			<center><a href="fichiers/cvbenjamindumay2017.pdf"><img src="image/moncv2017.png" alt="Image représentant mon Curriculum Vitae" height="200px" width="130px"></a></center><!--PDF en hyperlien-->
+		<br/>
+		<hr/>
 	</body>
 </html>
