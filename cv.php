@@ -74,7 +74,7 @@
 		<br/>
 		<hr/>
 		<br/>
-					<p><center>Cliquez sur l'image ci-dessous pour afficher le CV au format PDF :</center></p>
+					<p><center>Cliquez sur l'image pour afficher le CV au format PDF :</center></p>
 		<br/>
 			<center><a href="fichiers/cvbenjamindumay2017.pdf"><img src="image/moncv2017.png" alt="Image représentant mon Curriculum Vitae" height="200px" width="130px"></a></center><!--PDF en hyperlien-->
 		<br/>
