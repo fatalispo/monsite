@@ -10,11 +10,12 @@
 
 	<body>
 		
-		<?php include("menus.php");?>
+		<?php include("menus.php");?><!--Appel du menu, créé en PHP pour éviter de le répéter manuellement-->
 		<br/>
 			<h1><center>Mon parcours</center></h1>
 		<br/>
-				<h2 id="formations">Mes formations</h2>
+			<center><a href="fichiers/cvbenjamindumay2017.pdf"><img src="image/moncv2017.png" alt="Image représentant mon Curriculum Vitae" height="200px" width="130px"></a></center><!--PDF en hyperlien-->
+				<h2 id="formations">Mes formations</h2><!--Ancrage pour le menu-->
 					<p>2016 – 2017 Débute une formation de développeur web avec le CNAM en ligne.</p>
 					<p>2016 – 2017 Certificat pour plusieurs MOOC développement web sur OpenClassroom.</p>
 					<p>2016 – 2017 Master 1 Science politique à l’Université de Versailles Saint-Quentin.</p>
@@ -23,7 +24,7 @@
 					<p>2012 Cycle préparatoire au DAEU A orientation littéraire par correspondance avec le CNED</p>
 					<p>2009 CAP Agent de Prévention et de Sécurité, Lycée Professionnel Blaise Pascal, SAINT JEAN D'ANGELY <i>Étude de cas juridiques, apprentissage du droit pénal dans le dessein de la bonne pratique du métier d’agent de sécurité.</i></p>
 		<br/>
-				<h2 id="exppro">Expériences professionnelles</h2>
+				<h2 id="exppro">Expériences professionnelles</h2><!--Ancrage pour le menu-->
 				<ul>2016
 					<li>Du 09/2016 au 01/2017, Chargé de mission Conseil Citoyen – Service civique, mairie de Guyancourt (78).</li>
 					<li>Du 05/2016 au 07/2016, Agent de sécurité, Securitas CHAURAY (79).</li>
@@ -51,7 +52,7 @@
 					<li>2006 – 2007 Jeunes Sapeurs-Pompiers à THOUARS (79).</li>
 				</ul>
 		<br/>
-				<h2 id="knowledgeshobbies">Compétences et intérêts</h2>
+				<h2 id="knowledgeshobbies">Compétences et intérêts</h2><!--Ancrage pour le menu-->
 				<ul>Langues : 
 					<li>Anglais (intermédiaire) 4 mois en Ontario (CANADA) et intervenant dans cette langue auprès d’élèves dans une classe préparatoire ;</li>
 					<li>Russe (A2) compagne russe et 2 mois à Ekaterinbourg (RUSSIE).</li>
