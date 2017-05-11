@@ -12,7 +12,7 @@
 
 		<?php include("menus.php");?>
 		<br/>
-			<h1><center>Ce que je peux vous proposer</center></h1>
+			<h1><center>Ce que je vous propose</center></h1>
 		<br/>
 				<h2 id="htmlcss"><und>HTML/CSS</und></h2><!--Ancrage pour le menu source de l'image https://c1.staticflickr.com/6/5214/5383794499_f6e43fd12f_z.jpg-->
 				<img src="image/html5.jpg" alt="logo HTML5" align="right" width="200px" height="200px">
