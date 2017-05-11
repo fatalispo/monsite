@@ -1,4 +1,4 @@
-<nav>
+<nav id="menubloc">
 	<ul id="menu-deroulant">
 		<li><a href="index.php">Accueil</a>
 			<ul>
