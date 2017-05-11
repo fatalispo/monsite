@@ -1,6 +1,11 @@
             
             /*1.MENUS DEROULANT*/
 
+#menubloc {
+    z-index: 1000;
+    min-width: 1950px;
+}
+
 #menu-deroulant, #menu-deroulant ul {
         margin : auto;
         padding: 0;
@@ -18,14 +23,14 @@
 
 #menu-deroulant li {
         float : left; 
-        /* pour IE qui ne reconnaît pas "transparent" */
-        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+        border-right : 1px solid black; /* on met une bordure blanche à droite de chaque élément */
 }
 
 #menu-deroulant li ul {
         position: absolute; /* Position absolue */
         width: 244px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
+        text-align: center;
 }
 
 #menu-deroulant li ul li{
@@ -39,14 +44,13 @@
         background-color : rgba(180,194,185,0.75); /* fond */        
         color : black; /* texte */
         text-decoration : none; /* suppression du style par défaut */
-        width : 470px; /* largeur */
+        width : 480px; /* largeur */
 }
 
 #menu-deroulant ul {
     position: absolute;
 /* on cache les sous menus complètement sur la gauche */
     left: -999em;
-    text-align: left;
     z-index: 1000;
 }
 
@@ -61,11 +65,13 @@
 }
 
 
+
         /*2.PAGE INDEX*/
 
 body{
     background-color: rgba(0,0,0,1);
     color: green ;
+    font-size: 16px;
 }
 
     
@@ -109,47 +115,17 @@ form legend {
 }
 
 
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*                            --------------PETITES-RESOLUTIONS-ORDI--------------------                                */
-/*-----------------------------------------------------------------------------------------------------------------*/
+        /*4.ECRANS + PETITS*/
 
 
-@media only screen and (min-width: 768px)
+@media screen and (max-width: 1750px)
 {
 
-            /*1.MENU DEROULANT*/
 
-#menu-deroulant, #menu-deroulant ul {
-        margin : auto;
-        padding: 0;
-        list-style : none; 
-        line-height : 31px; 
-        text-align : center;
-}
-
-#menu-deroulant {
-        font-weight : bold; 
-        font-family : Arial; 
-        font-size : 14px; 
-        padding-bottom: 50px; /*Un peu d'espace entre le menu et ce qui suit*/
-}
-
-#menu-deroulant li {
-        float : left; 
-        /* pour IE qui ne reconnaît pas "transparent" */
-        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
-}
-
-#menu-deroulant li ul {
-        position: absolute; /* Position absolue */
-        width: 244px; /* Largeur des sous-listes */
-        left: -999em; /* Hop, on envoie loin du champ de vision */
-}
-
-#menu-deroulant li ul li{
-        /* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
-        border-top : 2px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous-liste */
-}
+#menubloc {
+    z-index: 1000;
+    min-width: 1750px;
+}    
 
 #menu-deroulant a {
         display : inline-block; /* les liens deviennent des balises de type block */
@@ -157,118 +133,49 @@ form legend {
         background-color : rgba(180,194,185,0.75); /* fond */        
         color : black; /* texte */
         text-decoration : none; /* suppression du style par défaut */
-        width : 470px; /* largeur */
-}
-
-#menu-deroulant ul {
-    position: absolute;
-/* on cache les sous menus complètement sur la gauche */
-    left: -999em;
-    text-align: left;
-    z-index: 1000;
-}
-
-#menu-deroulant li:hover ul {
-/* Au survol des li du menu on replace les sous menus */
-    left: auto;
-}
-
-#menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
-        color: green; /* On passe le texte en orange... */
-        background: #fff; /* ... et au contraire, le fond en blanc */
-}
-
-
-        /*2.PAGE INDEX*/
-
-body{
-    background-color: rgba(0,0,0,1);
-    color: green ;
-}
-
-    
-h2 {
-    text-shadow: 5px 5px 15px green;
-}
-
-
-        /*3.CONTACT*/
-
-form legend {
-    font-size: 20px ; 
-    font-weight: bold;
+        width : 432px; /* largeur */
 }
 
 #nom{
-    margin-left: 150px;
-    width: 300px;
+    margin-left: 140px;
+    width: 290px;
 }
 
 #prenom{
-    margin-left: 150px;
-    width: 300px;
+    margin-left: 140px;
+    width: 290px;
 }
 
 #email{
-    margin-left: 150px;
-    width: 300px;
+    margin-left: 140px;
+    width: 290px;
 }
 
 #objet{
-    margin-left: 150px;
-    width: 300px;
+    margin-left: 140px;
+    width: 290px;
 }
 
 #zonetexte{
     background-color: black;
     color: white;
     width: 85%; 
-    margin-left: 150px;
+    margin-left: 140px;
 }
+
 }
+        /*--------------*/
 
 
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*                            --------------PETITES-RESOLUTIONS-TEL---------------                                 */
-/*-----------------------------------------------------------------------------------------------------------------*/
 
-
-@media only screen and (min-width: 600px)
+@media screen and (max-width: 1600px)
 {
 
-            /*1.MENU DEROULANT*/
 
-#menu-deroulant, #menu-deroulant ul {
-        margin : auto;
-        padding: 0;
-        list-style : none; 
-        line-height : 31px; 
-        text-align : center;
-}
-
-#menu-deroulant {
-        font-weight : bold; 
-        font-family : Arial; 
-        font-size : 14px; 
-        padding-bottom: 50px; /*Un peu d'espace entre le menu et ce qui suit*/
-}
-
-#menu-deroulant li {
-        float : left; 
-        /* pour IE qui ne reconnaît pas "transparent" */
-        border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
-}
-
-#menu-deroulant li ul {
-        position: absolute; /* Position absolue */
-        width: 244px; /* Largeur des sous-listes */
-        left: -999em; /* Hop, on envoie loin du champ de vision */
-}
-
-#menu-deroulant li ul li{
-        /* pour ie qui ne reconnaît pas "transparent" (comme précédemment) */
-        border-top : 2px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous-liste */
-}
+#menubloc {
+    z-index: 1000;
+    min-width: 1600px;
+}    
 
 #menu-deroulant a {
         display : inline-block; /* les liens deviennent des balises de type block */
@@ -276,72 +183,556 @@ form legend {
         background-color : rgba(180,194,185,0.75); /* fond */        
         color : black; /* texte */
         text-decoration : none; /* suppression du style par défaut */
-        width : 470px; /* largeur */
-}
-
-#menu-deroulant ul {
-    position: absolute;
-/* on cache les sous menus complètement sur la gauche */
-    left: -999em;
-    text-align: left;
-    z-index: 1000;
-}
-
-#menu-deroulant li:hover ul {
-/* Au survol des li du menu on replace les sous menus */
-    left: auto;
-}
-
-#menu-deroulant a:hover /* Lorsque la souris passe sur un des liens */    {
-        color: green; /* On passe le texte en orange... */
-        background: #fff; /* ... et au contraire, le fond en blanc */
-}
-
-
-        /*2.PAGE INDEX*/
-
-body{
-    background-color: rgba(0,0,0,1);
-    color: green ;
-}
-
-    
-h2 {
-    text-shadow: 5px 5px 15px green;
-}
-
-
-        /*3.CONTACT*/
-
-form legend {
-    font-size: 12px ; 
-    font-weight: bold;
+        width : 392px; /* largeur */
 }
 
 #nom{
-    margin-left: 15px;
-    width: 300px;
+    margin-left: 130px;
+    width: 280px;
 }
 
 #prenom{
-    margin-left: 15px;
-    width: 300px;
+    margin-left: 130px;
+    width: 280px;
 }
 
 #email{
-    margin-left: 15px;
-    width: 300px;
+    margin-left: 130px;
+    width: 280px;
 }
 
 #objet{
-    margin-left: 15px;
-    width: 300px;
+    margin-left: 130px;
+    width: 280px;
 }
 
 #zonetexte{
     background-color: black;
     color: white;
-    width: 85%; 
-    margin-left: 10px;
+    width: 84%; 
+    margin-left: 130px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 1425px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 1425px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 342px; /* largeur */
+}
+
+#nom{
+    margin-left: 120px;
+    width: 270px;
+}
+
+#prenom{
+    margin-left: 120px;
+    width: 270px;
+}
+
+#email{
+    margin-left: 120px;
+    width: 270px;
+}
+
+#objet{
+    margin-left: 120px;
+    width: 270px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 83%; 
+    margin-left: 120px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 1250px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 1255px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 302px; /* largeur */
+}
+
+#nom{
+    margin-left: 110px;
+    width: 260px;
+}
+
+#prenom{
+    margin-left: 110px;
+    width: 260px;
+}
+
+#email{
+    margin-left: 110px;
+    width: 260px;
+}
+
+#objet{
+    margin-left: 110px;
+    width: 260px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 82%; 
+    margin-left: 110px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 1120px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 1120px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 272px; /* largeur */
+}
+
+#nom{
+    margin-left: 100px;
+    width: 250px;
+}
+
+#prenom{
+    margin-left: 100px;
+    width: 250px;
+}
+
+#email{
+    margin-left: 100px;
+    width: 250px;
+}
+
+#objet{
+    margin-left: 100px;
+    width: 250px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 81%; 
+    margin-left: 100px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 1000px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 1000px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 242px; /* largeur */
+}
+
+#nom{
+    margin-left: 90px;
+    width: 240px;
+}
+
+#prenom{
+    margin-left: 90px;
+    width: 240px;
+}
+
+#email{
+    margin-left: 90px;
+    width: 240px;
+}
+
+#objet{
+    margin-left: 90px;
+    width: 240px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 80%; 
+    margin-left: 90px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 885px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 885px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 212px; /* largeur */
+}
+
+#nom{
+    margin-left: 80px;
+    width: 230px;
+}
+
+#prenom{
+    margin-left: 80px;
+    width: 230px;
+}
+
+#email{
+    margin-left: 80px;
+    width: 230px;
+}
+
+#objet{
+    margin-left: 80px;
+    width: 230px;8
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 79%; 
+    margin-left: 80px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 760px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 765px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 182px; /* largeur */
+}
+
+#nom{
+    margin-left: 70px;
+    width: 220px;
+}
+
+#prenom{
+    margin-left: 70px;
+    width: 220px;
+}
+
+#email{
+    margin-left: 70px;
+    width: 220px;
+}
+
+#objet{
+    margin-left: 70px;
+    width: 220px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 78%; 
+    margin-left: 70px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 690px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 690px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 162px; /* largeur */
+}
+
+#nom{
+    margin-left: 60px;
+    width: 210px;
+}
+
+#prenom{
+    margin-left: 60px;
+    width: 210px;
+}
+
+#email{
+    margin-left: 60px;
+    width: 210px;
+}
+
+#objet{
+    margin-left: 60px;
+    width: 210px;
+   6
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 77%; 
+    margin-left: 60px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 615px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 615px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 148px; /* largeur */
+}
+
+#nom{
+    margin-left: 50px;
+    width: 200px;
+}
+
+#prenom{
+    margin-left: 50px;
+    width: 200px;
+}
+
+#email{
+    margin-left: 50px;
+    width: 200px;
+}
+
+#objet{
+    margin-left: 50px;
+    width: 200px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 76%; 
+    margin-left: 50px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 575px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 575px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 138px; /* largeur */
+}
+
+#nom{
+    margin-left: 40px;
+    width: 190px;
+}
+
+#prenom{
+    margin-left: 40px;
+    width: 190px;
+}
+
+#email{
+    margin-left: 40px;
+    width: 190px;
+}
+
+#objet{
+    margin-left: 40px;
+    width: 190px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 75%; 
+    margin-left: 40px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 530px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 535px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 128px; /* largeur */
+}
+
+#nom{
+    margin-left: 30px;
+    width: 180px;
+}
+
+#prenom{
+    margin-left: 30px;
+    width: 180px;
+}
+
+#email{
+    margin-left: 30px;
+    width: 180px;
+}
+
+#objet{
+    margin-left: 30px;
+    width: 180px;
+}
+
+#zonetexte{
+    background-color: black;
+    color: white;
+    width: 74%; 
+    margin-left: 30px;
+}
+
+}
+        /*------------------*/
+
+
+
+@media screen and (max-width: 495px min-width: 480px)
+{
+
+
+#menubloc {
+    z-index: 1000;
+    min-width: 485px;
+}    
+
+#menu-deroulant a {
+        display : inline-block; /* les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background-color : rgba(180,194,185,0.75); /* fond */        
+        color : black; /* texte */
+        text-decoration : none; /* suppression du style par défaut */
+        width : 118px; /* largeur */
 }
 }
+      
